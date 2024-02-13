@@ -1,4 +1,4 @@
-<script type="module">
+<script setup>
 
 </script>
 
@@ -30,7 +30,7 @@
                   <p class="text-gray-900 dark:text-white ">In recent years, studies have pointed out that the microbial flora of the intestine is closely related to many diseases. The microbial flora of the intestine is not only co-evolved with humans, but also can affect the health of humans, synthesis of the body's metabolites, inhibition of intestinal pathogens, and reduce the toxicity of toxic substances on the human body has established a good immune system. But not all bacteria are beneficial to humans. Some anaerobic bacteria break down the metabolites of protein synthesis in the intestine but are toxic to humans. Previous studies have confirmed that derivatives of bacterial metabolites, "indoxyl sulfate" are highly accumulated in the blood of patients with chronic kidney disease, and are toxic to vascular cells, accelerating the deterioration of renal function.</p>
                   <p class="text-gray-900 dark:text-white ">Therefore, it is more important to evaluate the amount of Indole. By searching for the bacteria that produce Indoxyl-sulfate to design a detection kit, develop a method to evaluate the ability of bacteria to produce Indole to detect the condition of end-stage chronic kidney patients, hoping to be in CKD patients found representative bacteria. It is expected that by changing the intestinal flora and significantly slow down the development of chronic kidney disease and effectively improve the health status of patients.</p>
              
-                  <figure><img src="/assets/ckd.jpg" alt="" class="mx-auto">
+                  <figure><img src="assets/ckd.jpg" alt="" class="mx-auto">
                       <figcaption class="text-gray-900 dark:text-white ">Chronic Kidney Disease</figcaption>
                   </figure>
 
