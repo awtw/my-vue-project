@@ -1,14 +1,60 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import AboutMe from '../components/AboutMe.vue'
+import SideProject from '../components/SideProject.vue'
+import Experience from '../components/Experience.vue'
+import Education from '../components/Education.vue'
+import Thesis from '../components/Thesis.vue'
+import Contact from '../components/Contact.vue'
+import Support from '../components/Support.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
+      path: '/AboutMe',
       name: 'AboutMe',
       component: AboutMe
-    }
+    },
+    {
+      path: '/SideProject',
+      name: 'SideProject',
+      component: SideProject
+    },
+    {
+      path: '/Experience',
+      name: 'Experience',
+      component: Experience
+    },
+    {
+      path: '/Education',
+      name: 'Education',
+      component: Education
+    },
+    {
+      path: '/Thesis',
+      name: 'Thesis',
+      component: Thesis
+    },
+    {
+      path: '/Contact',
+      name: 'Contact',
+      component: Contact
+    },
+    {
+      path: '/Support',
+      name: 'Support',
+      component: Support
+    },
+    {
+      path: '/',
+      name: 'Home',
+      component: AboutMe
+    },
+    {
+      path: '/:catchAll(.*)',
+      name: '404',
+      component: AboutMe
+  }
   ]
 })
 
