@@ -30,7 +30,7 @@
                   <p class="text-gray-900 dark:text-white ">In recent years, studies have pointed out that the microbial flora of the intestine is closely related to many diseases. The microbial flora of the intestine is not only co-evolved with humans, but also can affect the health of humans, synthesis of the body's metabolites, inhibition of intestinal pathogens, and reduce the toxicity of toxic substances on the human body has established a good immune system. But not all bacteria are beneficial to humans. Some anaerobic bacteria break down the metabolites of protein synthesis in the intestine but are toxic to humans. Previous studies have confirmed that derivatives of bacterial metabolites, "indoxyl sulfate" are highly accumulated in the blood of patients with chronic kidney disease, and are toxic to vascular cells, accelerating the deterioration of renal function.</p>
                   <p class="text-gray-900 dark:text-white ">Therefore, it is more important to evaluate the amount of Indole. By searching for the bacteria that produce Indoxyl-sulfate to design a detection kit, develop a method to evaluate the ability of bacteria to produce Indole to detect the condition of end-stage chronic kidney patients, hoping to be in CKD patients found representative bacteria. It is expected that by changing the intestinal flora and significantly slow down the development of chronic kidney disease and effectively improve the health status of patients.</p>
              
-                  <figure><img src="../assets/ckd.jpg" alt="" class="mx-auto">
+                  <figure><img src="assets/ckd.jpg" alt="" class="mx-auto">
                       <figcaption class="text-gray-900 dark:text-white ">Chronic Kidney Disease</figcaption>
                   </figure>
 
@@ -56,7 +56,7 @@
                           <h4 class="mb-4 text-sm font-bold text-gray-900 dark:text-white uppercase">Latest news</h4>
                           <div class="mb-6 flex items-center">
                               <a href="#" class="shrink-0">
-                                  <img src="../assets/pubmed-logo-blue.svg" class="mr-4 max-w-full w-24 h-24 rounded-lg" alt="Image 1">
+                                  <img src="assets/pubmed-logo-blue.svg" class="mr-4 max-w-full w-24 h-24 rounded-lg" alt="Image 1">
                               </a>
                               <div>
                                   <h5 class="mb-2 text-lg font-bold leading-tight dark:text-white text-gray-900">Preventing CKD in Developed Countries</h5>
@@ -68,7 +68,7 @@
                           </div>
                          <div class="mb-6 flex items-center">
                             <a href="#" class="shrink-0">
-                                <img src="../assets/pubmed-logo-blue.svg" class="mr-4 max-w-full w-24 h-24 rounded-lg" alt="Image 1">
+                                <img src="assets/pubmed-logo-blue.svg" class="mr-4 max-w-full w-24 h-24 rounded-lg" alt="Image 1">
                             </a>
                             <div>
                                 <h5 class="mb-2 text-lg font-bold leading-tight dark:text-white text-gray-900">CKD Hotspots: Challenges and Areas of Opportunity</h5>
@@ -80,7 +80,7 @@
                         </div>
                           <div class="mb-6 flex items-center">
                             <a href="#" class="shrink-0">
-                                <img src="../assets/pubmed-logo-blue.svg" class="mr-4 max-w-full w-24 h-24 rounded-lg" alt="Image 1">
+                                <img src="assets/pubmed-logo-blue.svg" class="mr-4 max-w-full w-24 h-24 rounded-lg" alt="Image 1">
                             </a>
                             <div>
                                 <h5 class="mb-2 text-lg font-bold leading-tight dark:text-white text-gray-900">CKD, arterial calcification, atherosclerosis and bone health: Inter-relationships and controversies</h5>
