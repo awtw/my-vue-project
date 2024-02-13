@@ -11,7 +11,7 @@
                         class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
                     </div>
                     <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Now</time>
-                    <img class="w-12 h-12 mb-3 me-3 sm:mb-0" src="assets/ctbcbank.png" alt="ctbcbank logo"/>
+                    <img class="w-12 h-12 mb-3 me-3 sm:mb-0" src="/assets/ctbcbank.png" alt="ctbcbank logo"/>
                     <h3 class="text-lg font-semibold text-gray-900 dark:text-white">軟體工程師 | 中國信託金融控股股份有限公司</h3>
                     <p class="text-base font-normal text-gray-500 dark:text-gray-400">於銀行個人金融部門內部系統之應用及功能開發，且協助維運處理線上異常。</p>
                     <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
@@ -31,7 +31,7 @@
                         class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
                     </div>
                     <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Mar 2023</time>
-                    <img class="w-12 h-12 mb-3 me-3 sm:mb-0" src="assets/91app.png" alt="91app logo"/>
+                    <img class="w-12 h-12 mb-3 me-3 sm:mb-0" src="/assets/91app.png" alt="91app logo"/>
                     <h3 class="text-lg font-semibold text-gray-900 dark:text-white">資深軟體工程師 | 91APP_九易宇軒股份有限公司</h3>
                     <p class="text-base font-normal text-gray-500 dark:text-gray-400">負責電商大流量的服務，隸屬於 data team 底下的 data 應用，主要負責推播中心的為服務。</p>
                     <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
@@ -66,7 +66,7 @@
                     class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
                 </div>
                 <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Mar 2021</time>
-                <img class="w-12 h-12 mb-3 me-3 sm:mb-0" src="assets/aurora.png" alt="aurora logo"/>
+                <img class="w-12 h-12 mb-3 me-3 sm:mb-0" src="/assets/aurora.png" alt="aurora logo"/>
                 <h3 class="text-lg font-semibold text-gray-900 dark:text-white">資深軟體工程師 | 震旦集團
                 </h3>
                 <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
