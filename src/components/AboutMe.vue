@@ -54,7 +54,7 @@
                     <img class="h-auto max-w-full rounded-lg" src="../assets/IMG_1004.jpg" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="../assets/IMG_3527.JPG" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="../assets/IMG_3527.jpg" alt="">
                 </div>
                 <div>
                     <img class="h-auto max-w-full rounded-lg" src="../assets/IMG_5545.jpg" alt="">
@@ -65,10 +65,10 @@
                     <img class="h-auto max-w-full rounded-lg" src="../assets/IMG_5547.jpg" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="../assets/IMG_20220914_145243.JPEG" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="../assets/IMG_20220914_145243.jpg" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="../assets/Xnip2023-01-10_09-14-40.PNG" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="../assets/Xnip2023-01-10_09-14-40.png" alt="">
                 </div>
             </div>
             <div class="grid gap-4">
@@ -76,10 +76,10 @@
                     <img class="h-auto max-w-full rounded-lg" src="../assets/Xnip2024-02-13_19-18-57.png" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="../assets/IMG_0916.jpeg" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="../assets/IMG_0916.jpg" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="../assets/IMG_3344.jpeg" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="../assets/IMG_3344.jpg" alt="">
                 </div>
             </div>
             <div class="grid gap-4">
