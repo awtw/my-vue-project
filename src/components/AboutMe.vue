@@ -11,7 +11,7 @@
           <header class="mb-4 lg:mb-6 not-format">
             <address class="flex items-center mb-6 not-italic">
               <div class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
-                <img class="mr-4 w-16 h-16 rounded-full" src="assets/me.jpg" alt="Jese Leos">
+                <img class="mr-4 w-16 h-16 rounded-full" src="https://vueproject.s3.us-west-2.amazonaws.com/me.jpg" alt="Jese Leos">
                 <div>
                   <a href="#" rel="author" class="text-xl font-bold text-gray-900 dark:text-white">August Wang (CHUNG YU WANG)</a>
                   <p class="text-base text-gray-500 dark:text-gray-400">Backend End Enginner | Fronted End Enginner |
@@ -51,46 +51,46 @@
           <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-5">
             <div class="grid gap-4">
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="assets/IMG_1004.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="https://vueproject.s3.us-west-2.amazonaws.com/IMG_1004.jpg" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="assets/IMG_3527.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="https://vueproject.s3.us-west-2.amazonaws.com/IMG_3527.jpg" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="assets/IMG_5545.jpg" alt="">
-                </div>
-            </div>
-            <div class="grid gap-4">
-                <div>
-                    <img class="h-auto max-w-full rounded-lg" src="assets/IMG_5547.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg" src="assets/IMG_20220914_145243.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg" src="assets/Xnip2023-01-10_09-14-40.png" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="https://vueproject.s3.us-west-2.amazonaws.com/IMG_5545.jpg" alt="">
                 </div>
             </div>
             <div class="grid gap-4">
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="assets/Xnip2024-02-13_19-18-57.png" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="https://vueproject.s3.us-west-2.amazonaws.com/IMG_5547.jpg" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="assets/IMG_0916.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="https://vueproject.s3.us-west-2.amazonaws.com/IMG_20220914_145243.jpg" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="assets/IMG_3344.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="https://vueproject.s3.us-west-2.amazonaws.com/Xnip2023-01-10_09-14-40.png" alt="">
                 </div>
             </div>
             <div class="grid gap-4">
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="assets/Xnip2024-02-13_19-38-33.png" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="https://vueproject.s3.us-west-2.amazonaws.com/Xnip2024-02-13_19-18-57.png" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="assets/Xnip2024-02-13_19-38-43.png" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="https://vueproject.s3.us-west-2.amazonaws.com/IMG_0916.jpg" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="assets/Xnip2024-02-13_19-41-19.png" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="https://vueproject.s3.us-west-2.amazonaws.com/IMG_3344.jpg" alt="">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://vueproject.s3.us-west-2.amazonaws.com/Xnip2024-02-13_19-38-33.png" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://vueproject.s3.us-west-2.amazonaws.com/Xnip2024-02-13_19-38-43.png" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://vueproject.s3.us-west-2.amazonaws.com/Xnip2024-02-13_19-41-19.png" alt="">
                 </div>
             </div>
           </div>
