@@ -8,6 +8,7 @@
         <li class="mb-10 ms-4">
             <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
             <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Aug 2018</time>
+            <img class="w-12 h-12 mb-3 me-3 sm:mb-0" src="https://vueproject.s3.us-west-2.amazonaws.com/NTCU.png" alt="NTOU logo"/>
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">NCTU 國立交通大學 分子醫學與生物工程研究所</h3>
             <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">GPA: 3.98</p>
             <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Master's thesis:  
@@ -34,6 +35,7 @@
         <li class="mb-10 ms-4">
             <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
             <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Sep 2012</time>
+            <img class="w-12 h-12 mb-3 me-3 sm:mb-0" src="https://vueproject.s3.us-west-2.amazonaws.com/NTOU.png" alt="NTOU logo"/>
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">NTOU 國立台灣海洋大學 食品科學系</h3>
             <p class="text-base font-normal text-gray-500 dark:text-gray-400">GPA: 3.74</p>
             <p class="text-base font-normal text-gray-500 dark:text-gray-400">Special subject: 
@@ -43,6 +45,7 @@
         <li class="ms-4">
             <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
             <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">June 2016</time>
+            <img class="w-12 h-12 mb-3 me-3 sm:mb-0" src="https://vueproject.s3.us-west-2.amazonaws.com/TAFE.png" alt="TAFE logo"/>
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">University of South Australia (TAFE SA) 澳洲</h3>
             <p class="text-base font-normal text-gray-500 dark:text-gray-400">Diploma of Landscape Design</p>
         </li>
