@@ -49,7 +49,16 @@
                 </p>
                 
              <p class="mb-3 text-gray-500 dark:text-gray-400">Line: 
-                    <a href="https://docs.google.com/document/d/1sq13tk4Ri_I_20bQGDcgntrxIF4McRDm/edit?usp=sharing&ouid=109716787946494062921&rtpof=true&sd=true" target="_blank" class="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                    <a href="https://line.me/ti/p/SYT2wZ621C" target="_blank" class="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                    添加好友
+                    <svg class="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                    </a>                
+                </p>
+
+             <p class="mb-3 text-gray-500 dark:text-gray-400">Wechat: 
+                    <a href="https://u.wechat.com/kG1kyipmafco0eLFnxNneqo" target="_blank" class="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
                     添加好友
                     <svg class="w-4 h-4 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>

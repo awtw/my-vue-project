@@ -6,6 +6,7 @@ import Education from '../components/Education.vue'
 import Thesis from '../components/Thesis.vue'
 import Contact from '../components/Contact.vue'
 import Support from '../components/Support.vue'
+import Error from '../components/Error.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -54,7 +55,7 @@ const router = createRouter({
     {
       path: '/:catchAll(.*)',
       name: '404',
-      component: AboutMe
+      component: Error
   }
   ]
 })
