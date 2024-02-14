@@ -3,11 +3,11 @@
 </script>
 
 <template>
-    <div class="pb-60 bg-white dark:bg-gray-900">
+    <div class="pt-20 pb-60 bg-white dark:bg-gray-900">
         <section class="bg-white dark:bg-gray-900">
         <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Me</h2>
-            <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">想進一步了解我嗎？或是對我有什麼疑惑，歡迎留言給我喔！</p>
+            <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">想進一步了解或是對我有什麼疑惑，歡迎留言給我喔！</p>
 
             <p class="mb-3 text-gray-500 dark:text-gray-400">Location: TW / Taipei</p>
             <p class="mb-3 text-gray-500 dark:text-gray-400">Email: 

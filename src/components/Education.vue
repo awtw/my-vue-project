@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="pb-40 bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-900">
+    <div class="pt-20 pb-40 bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-900">
     <ol class="relative border-s border-gray-200 dark:border-gray-700 mb-16">                  
         <li class="mb-10 ms-4">
             <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>

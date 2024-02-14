@@ -11,7 +11,7 @@ onMounted(() => {
 <template>
   <div class="bg-white dark:bg-gray-900">
     <div>
-      <header class="antialiased">
+      <header tabindex="-1" class="antialiased fixed top-0 start-0 w-full bg-white dark:bg-gray-900 z-index-100">
         <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-900">
           <div class="flex flex-wrap justify-between items-center">
             <div class="flex justify-start items-center">
@@ -188,41 +188,16 @@ onMounted(() => {
     </header>
   </div>
 
-  <div class="w-full h-100 max-w-full">
+  <div class="w-full h-100 max-w-full pt-10 bg-white dark:bg-gray-900">
     <RouterView />
   </div>
 
-  <div id="informational-banner" tabindex="-1" class="fixed bottom-0 start-0 z-50 flex flex-col justify-between w-full p-4 border-b border-gray-200 md:flex-row bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
+  <div id="informational-banner" tabindex="-1" class="fixed bottom-0 start-0 z-50 flex flex-col justify-center w-full p-2 border-b border-gray-200 md:flex-row bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
     <footer class="border-gray-200 bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
       <div class="w-full mx-auto max-w-screen-xl md:flex md:items-center md:justify-between">
         <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/"
             class="hover:underline">August Wang</a>. All Rights Reserved.
         </span>
-        <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-
-
-          <li>
-            <router-link to="/AboutMe">
-              <a href="" class="hover:underline me-4 md:me-6">About</a>
-            </router-link>
-          </li>
-
-          <li>
-            <router-link to="/">
-              <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
-            </router-link>
-          </li>
-          <li>
-            <router-link to="/">
-              <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
-            </router-link>
-          </li>
-          <li>
-            <router-link to="/Contact">
-              <a href="#" class="hover:underline">Contact</a>
-            </router-link>
-          </li>
-        </ul>
       </div>
     </footer>
   </div>
@@ -230,6 +205,11 @@ onMounted(() => {
 </div>
 </template>
 
-<style scoped>.container {
+<style scoped>
+.container {
   width: 100vw;
-}</style>
+}
+.z-index-100{
+  z-index: 100;
+}
+</style>
