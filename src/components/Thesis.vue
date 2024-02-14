@@ -56,7 +56,7 @@
                           <h4 class="mb-4 text-sm font-bold text-gray-900 dark:text-white uppercase">Latest news</h4>
                           <div class="mb-6 flex items-center">
                               <a href="#" class="shrink-0">
-                                  <img src="/assets/pubmed-logo-blue.svg" class="mr-4 max-w-full w-24 h-24 rounded-lg" alt="Image 1">
+                                  <img src="assets/pubmed-logo-blue.svg" class="mr-4 max-w-full w-24 h-24 rounded-lg" alt="Image 1">
                               </a>
                               <div>
                                   <h5 class="mb-2 text-lg font-bold leading-tight dark:text-white text-gray-900">Preventing CKD in Developed Countries</h5>
@@ -68,7 +68,7 @@
                           </div>
                          <div class="mb-6 flex items-center">
                             <a href="#" class="shrink-0">
-                                <img src="/assets/pubmed-logo-blue.svg" class="mr-4 max-w-full w-24 h-24 rounded-lg" alt="Image 1">
+                                <img src="assets/pubmed-logo-blue.svg" class="mr-4 max-w-full w-24 h-24 rounded-lg" alt="Image 1">
                             </a>
                             <div>
                                 <h5 class="mb-2 text-lg font-bold leading-tight dark:text-white text-gray-900">CKD Hotspots: Challenges and Areas of Opportunity</h5>
@@ -80,7 +80,7 @@
                         </div>
                           <div class="mb-6 flex items-center">
                             <a href="#" class="shrink-0">
-                                <img src="/assets/pubmed-logo-blue.svg" class="mr-4 max-w-full w-24 h-24 rounded-lg" alt="Image 1">
+                                <img src="assets/pubmed-logo-blue.svg" class="mr-4 max-w-full w-24 h-24 rounded-lg" alt="Image 1">
                             </a>
                             <div>
                                 <h5 class="mb-2 text-lg font-bold leading-tight dark:text-white text-gray-900">CKD, arterial calcification, atherosclerosis and bone health: Inter-relationships and controversies</h5>
