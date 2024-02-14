@@ -15,7 +15,7 @@ onMounted(() => {
         <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-900">
           <div class="flex flex-wrap justify-between items-center">
             <div class="flex justify-start items-center">
-              <router-link to="#">
+              <router-link to="/">
                 <a href="#">
                   <svg class="w-8 h-8 mr-3 text-gray-800 dark:text-white" aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">

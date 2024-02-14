@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import AboutMe from '../components/AboutMe.vue'
 import SideProject from '../components/SideProject.vue'
 import Experience from '../components/Experience.vue'
@@ -9,7 +9,7 @@ import Support from '../components/Support.vue'
 import Error from '../components/Error.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   mode: 'history',
   routes: [
     {
