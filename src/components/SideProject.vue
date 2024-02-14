@@ -8,31 +8,31 @@
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
             <div class="grid grid-cols-2 gap-2">
                 <a href="https://awtw.github.io/1914_2019/" target="_blank" class="p-8 col-span-2 text-left h-96 bg-[url('https://vueproject.s3.us-west-2.amazonaws.com/1914.png')] bg-no-repeat bg-cover bg-center bg-gray-500 bg-blend-multiply hover:bg-blend-normal">
-                    <h2 class="mb-5 max-w-xl text-5xl font-extrabold tracking-tight leading-tight text-white">1914 Brand Web Site  <br>利用 Line chatbot 製作客服機器人 </h2> <h5 class="mb-5 max-w-xl text-sm font-extrabold tracking-tight leading-tight text-white">(因部署在 heroku 目前服務暫停中)</h5>
+                    <h2 class="mb-5 max-w-xl lg:text-3xl lg:mt-0 font-extrabold tracking-tight leading-tight text-white text-xl mt-3">1914 Brand Web Site  <br>利用 Line chatbot 製作客服機器人 </h2> <h5 class="mb-5 max-w-xl text-sm font-extrabold tracking-tight leading-tight text-white">(因部署在 heroku 目前服務暫停中)</h5>
                     <button type="button" class="inline-flex items-center px-4 py-2.5 font-medium text-center text-white border border-white rounded-lg hover:bg-white hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-700">
                         Show more
                     </button>
                 </a>
                 <a href="https://awtw.github.io/mask-map/" target="_blank" class="p-8 col-span-2 md:col-span-1 text-left h-96 bg-[url('https://vueproject.s3.us-west-2.amazonaws.com/map.png')] bg-no-repeat bg-cover bg-center bg-gray-500 bg-blend-multiply hover:bg-blend-normal">
-                    <h2 class="mb-5 max-w-xl text-4xl font-extrabold tracking-tight leading-tight text-white">口罩地圖 用 Angular 實作配合 leafletjs 圖資</h2>
+                    <h2 class="mb-5 max-w-xl lg:text-3xl lg:mt-0 font-extrabold tracking-tight leading-tight text-white text-xl mt-3">口罩地圖 用 Angular 實作配合 leafletjs 圖資</h2>
                     <button type="button" class="inline-flex items-center px-4 py-2.5 font-medium text-center text-white border border-white rounded-lg hover:bg-white hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-700">
                         Show more
                     </button>
                 </a>                
                 <a href="https://awtw.github.io/resume/#/project/info" target="_blank" class="p-8 col-span-2 md:col-span-1 text-left h-96 bg-[url('https://vueproject.s3.us-west-2.amazonaws.com/resume2023.png')] bg-no-repeat bg-cover bg-center bg-gray-500 bg-blend-multiply hover:bg-blend-normal">
-                    <h2 class="mb-5 max-w-xl text-4xl font-extrabold tracking-tight leading-tight text-white">2023年前的作品集，利用 Angular及串接paypal api 進行付款動作</h2>
+                    <h2 class="mb-5 max-w-xl lg:text-3xl lg:mt-0 font-extrabold tracking-tight leading-tight text-white text-xl mt-3">2023年前的作品集，利用 Angular及串接paypal api 進行付款動作</h2>
                     <button type="button" class="inline-flex items-center px-4 py-2.5 font-medium text-center text-white border border-white rounded-lg hover:bg-white hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-700">
                         Show more
                     </button>
                 </a>
                 <a href="https://awtw.github.io/old_profolio/" target="_blank" class="p-8 col-span-2 md:col-span-1 text-left h-96 bg-[url('https://vueproject.s3.us-west-2.amazonaws.com/old_profolio.png')] bg-no-repeat bg-cover bg-center bg-gray-500 bg-blend-multiply hover:bg-blend-normal">
-                    <h2 class="mb-5 max-w-xl text-4xl font-extrabold tracking-tight leading-tight text-white">2021以前的作品合集，集合了大量的 CSS 元素實作</h2>
+                    <h2 class="mb-5 max-w-xl lg:text-3xl lg:mt-0 font-extrabold tracking-tight leading-tight text-white text-xl mt-3">2021以前的作品合集，集合了大量的 CSS 元素實作</h2>
                     <button type="button" class="inline-flex items-center px-4 py-2.5 font-medium text-center text-white border border-white rounded-lg hover:bg-white hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-700">
                         Show more
                     </button>
                 </a>
                 <a href="https://awtw.github.io/R_page/"  target="_blank" class="p-8 col-span-2 md:col-span-1 text-left h-96 bg-[url('https://vueproject.s3.us-west-2.amazonaws.com/R.png')] bg-no-repeat bg-cover bg-center bg-gray-500 bg-blend-multiply hover:bg-blend-normal">
-                    <h2 class="mb-5 max-w-xl text-4xl font-extrabold tracking-tight leading-tight text-white">利用Ｒ語言實作分析模型，建立購物車按鍵影響購買因素分析</h2>
+                    <h2 class="mb-5 max-w-xl lg:text-3xl lg:mt-0 font-extrabold tracking-tight leading-tight text-white text-xl mt-3">利用Ｒ語言實作分析模型，建立購物車按鍵影響購買因素分析</h2>
                     <button type="button" class="inline-flex items-center px-4 py-2.5 font-medium text-center text-white border border-white rounded-lg hover:bg-white hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-700">
                         Show more
                     </button>
