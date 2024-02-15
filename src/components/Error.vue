@@ -7,7 +7,7 @@ const router = useRouter();
 onMounted(()=> {
     setTimeout(() => {
         router.push('/');
-    }, 2000);
+    }, 3000);
 });
 
 
@@ -15,7 +15,7 @@ computed
 </script>
 
 <template>
-    <section class="pt-10 bg-gray-50 dark:bg-gray-900 pb-20">
+    <section class="pt-10 bg-gray-50 dark:bg-gray-900 pb-20 container">
         <div class="py-8 px-3 mx-auto max-w-screen-xl lg:py-10 lg:px-6">
             <div class="mx-auto max-w-screen-sm text-center">
             <img class="mx-auto mb-43" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/404/404-computer.svg" alt="404 Not Found">
@@ -25,4 +25,8 @@ computed
         </div>
     </section>
 </template>
-<style scoped></style>
+<style scoped>
+.container{
+    height: 100vh;
+}
+</style>

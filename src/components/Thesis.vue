@@ -3,13 +3,13 @@
 </script>
 
 <template>
-    <div class="pt-20 pb-40 bg-white dark:bg-gray-900">
+    <div class="pt-20 pb-40 bg-white dark:bg-gray-900 container">
         <main class="pb-16 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
           <header class="bg-[url('https://flowbite.s3.amazonaws.com/blocks/marketing-ui/articles/background.png')] w-full h-[460px] xl:h-[537px] bg-no-repeat bg-cover bg-center bg-blend-darken relative">
               <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50"></div>
               <div class="ml-10 absolute top-20 left-1/2 px-4 mx-auto w-full max-w-screen-xl -translate-x-1/2 xl:top-1/2 xl:-translate-y-1/2 xl:px-0">
                   <span class="block mb-4 text-gray-300">Published in <a href="#" class="font-semibold text-white hover:underline">國家圖書館</a></span>
-                  <h1 class="mb-4 max-w-4xl text-2xl font-extrabold leading-none text-white sm:text-3xl lg:text-4xl">Development of a accessorial diagnostic kit for chronic kidney disease through the bacterial flora</h1>
+                  <h1 class="mb-4 max-w-4xl text-xl font-extrabold leading-none text-white sm:text-3xl lg:text-4xl">Development of a accessorial diagnostic kit <br> for chronic kidney disease <br> through the bacterial flora</h1>
                   <p class="text-lg font-normal text-gray-300">透過菌相開發慢性腎臟病輔助診斷套組</p>
               </div>
           </header>
@@ -99,6 +99,6 @@
 </template>
 <style scoped>
 .container{
-    height: 100%;
+    overflow: hidden;
 }
 </style>
