@@ -7,6 +7,7 @@ import Thesis from '../components/Thesis.vue'
 import Contact from '../components/Contact.vue'
 import Support from '../components/Support.vue'
 import Error from '../components/Error.vue'
+import Login from '../components/login.vue'
 
 const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
@@ -41,6 +42,11 @@ const router = createRouter({
       path: '/Contact',
       name: 'Contact',
       component: Contact
+    },
+    {
+      path: '/Login',
+      name: 'Login',
+      component: Login
     },
     {
       path: '/Support',

@@ -70,6 +70,7 @@ export default {
       12: '3rem',
       14: '3.5rem',
       16: '4rem',
+      17: '4.3rem',
       20: '4.5rem',
       25: '5rem',
       26: '6rem',
