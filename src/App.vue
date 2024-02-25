@@ -1,11 +1,38 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import { onMounted } from 'vue'
+import { RouterLink, RouterView, useRouter } from 'vue-router'
+import { ref, onMounted } from 'vue'
 import { initFlowbite } from 'flowbite'
+const router = useRouter();
+const checkLogin = ref(false);
+const checklogout = ref(false);
 
 onMounted(() => {
+  if (localStorage.getItem('reloaded')) {
+    // The page was just reloaded. Clear the value from local storage
+    // so that it will reload the next time this page is visited.
+    localStorage.removeItem('reloaded');
+  } else {
+    // Set a flag so that we know not to reload the page twice.
+    localStorage.setItem('reloaded', '1');
+    location.reload();
+  }
   initFlowbite();
+  checkLogin.value = false;
+  checklogout.value = false;
+  if(localStorage.getItem("userName") != null) {
+      checkLogin.value = true;
+  }
 })
+
+
+const logout = () => {
+  checklogout.value = true;
+  localStorage.removeItem("userName");
+  setTimeout(() => {
+    location.reload();
+    router.push('/');
+  }, 1000);
+}
 
 
 </script>
@@ -64,7 +91,7 @@ onMounted(() => {
                     <div class="text-sm font-medium text-gray-900 dark:text-white">Login</div>
                   </a>
                     </router-link>
-                  <a href="#" class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group">
+                  <!-- <a href="#" class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group">
                     <svg
                       class="mx-auto mb-2 w-5 h-5 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"
                       aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18">
@@ -74,17 +101,19 @@ onMounted(() => {
                         d="M1 18h16a1 1 0 0 0 1-1v-6h-4.439a.99.99 0 0 0-.908.6 3.978 3.978 0 0 1-7.306 0 .99.99 0 0 0-.908-.6H0v6a1 1 0 0 0 1 1Z" />
                     </svg>
                     <div class="text-sm font-medium text-gray-900 dark:text-white">Inbox</div>
-                  </a>
-                  <a href="#" class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group">
-                    <svg
-                      class="mx-auto mb-2 w-5 h-5 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"
-                      aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                      <path
-                        d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z" />
-                    </svg>
-                    <div class="text-sm font-medium text-gray-900 dark:text-white">Profile</div>
-                  </a>
-                  <a href="#" class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group">
+                  </a> -->
+                  <router-link to="/AboutMe">
+                    <a href="#" class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group">
+                      <svg
+                        class="mx-auto mb-2 w-5 h-5 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"
+                        aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path
+                          d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z" />
+                      </svg>
+                      <div class="text-sm font-medium text-gray-900 dark:text-white">Profile</div>
+                    </a>
+                  </router-link>
+                  <!-- <a href="#" class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group">
                     <svg
                       class="mx-auto mb-2 w-5 h-5 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"
                       aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -92,8 +121,8 @@ onMounted(() => {
                         d="M18 7.5h-.423l-.452-1.09.3-.3a1.5 1.5 0 0 0 0-2.121L16.01 2.575a1.5 1.5 0 0 0-2.121 0l-.3.3-1.089-.452V2A1.5 1.5 0 0 0 11 .5H9A1.5 1.5 0 0 0 7.5 2v.423l-1.09.452-.3-.3a1.5 1.5 0 0 0-2.121 0L2.576 3.99a1.5 1.5 0 0 0 0 2.121l.3.3L2.423 7.5H2A1.5 1.5 0 0 0 .5 9v2A1.5 1.5 0 0 0 2 12.5h.423l.452 1.09-.3.3a1.5 1.5 0 0 0 0 2.121l1.415 1.413a1.5 1.5 0 0 0 2.121 0l.3-.3 1.09.452V18A1.5 1.5 0 0 0 9 19.5h2a1.5 1.5 0 0 0 1.5-1.5v-.423l1.09-.452.3.3a1.5 1.5 0 0 0 2.121 0l1.415-1.414a1.5 1.5 0 0 0 0-2.121l-.3-.3.452-1.09H18a1.5 1.5 0 0 0 1.5-1.5V9A1.5 1.5 0 0 0 18 7.5Zm-8 6a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z" />
                     </svg>
                     <div class="text-sm font-medium text-gray-900 dark:text-white">Settings</div>
-                  </a>
-                  <a href="#" class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group">
+                  </a> -->
+                  <a href="#" @click="logout" v-show="checkLogin" class="block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 group">
                     <svg
                       class="mx-auto mb-2 w-5 h-5 text-gray-400 group-hover:text-gray-500 dark:text-gray-400 dark:group-hover:text-gray-400"
                       aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
@@ -108,9 +137,12 @@ onMounted(() => {
               <span class="hidden mx-2 w-px h-5 bg-gray-200 dark:bg-gray-600 lg:inline"></span>
 
               <!-- FAQ link -->
+               <router-link to="/Contact">
               <button type="button" data-tooltip-target="tooltip-faq"
                 class="hidden p-2 text-gray-500 rounded-lg lg:inline-block hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600">
-                <span class="sr-only">View FAQ</span>
+                <span class="sr-only">
+                  FAQ
+                </span>
                 <!-- Icon -->
                 <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                   viewBox="0 0 20 20">
@@ -118,11 +150,17 @@ onMounted(() => {
                     d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm0 16a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm1-5.034V12a1 1 0 0 1-2 0v-1.418a1 1 0 0 1 1.038-.999 1.436 1.436 0 0 0 1.488-1.441 1.501 1.501 0 1 0-3-.116.986.986 0 0 1-1.037.961 1 1 0 0 1-.96-1.037A3.5 3.5 0 1 1 11 11.466Z" />
                 </svg>
               </button>
+              </router-link>
               <div id="tooltip-faq" role="tooltip"
                 class="inline-block absolute invisible z-10 py-2 px-3 text-sm font-medium text-white bg-gray-900 rounded-lg shadow-sm opacity-0 transition-opacity duration-300 tooltip dark:bg-gray-700">
-                View FAQ
+                <router-link to="/Contact">
+                  <a href="#" class="block py-3 px-4 text-gray-900 lg:py-0 dark:text-white lg:hover:underline lg:px-0"
+                    aria-current="page">FAQ</a>
+                </router-link>
                 <div class="tooltip-arrow" data-popper-arrow></div>
               </div>
+
+               
 
               <button type="button" id="toggleMobileMenuButton" data-collapse-toggle="toggleMobileMenu"
                 class="items-center p-2 text-gray-500 rounded-lg lg:hidden hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600">
@@ -192,6 +230,16 @@ onMounted(() => {
       </nav>
     </header>
   </div>
+
+  <div v-show="checklogout" id="toast-default" class="fixed top-32 right-25 flex items-center w-full max-w-xs p-4 text-gray-500 bg-white rounded-lg shadow dark:text-gray-400 dark:bg-gray-800" role="alert">
+        <div class="inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-blue-500 bg-blue-100 rounded-lg dark:bg-blue-800 dark:text-blue-200">
+            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.147 15.085a7.159 7.159 0 0 1-6.189 3.307A6.713 6.713 0 0 1 3.1 15.444c-2.679-4.513.287-8.737.888-9.548A4.373 4.373 0 0 0 5 1.608c1.287.953 6.445 3.218 5.537 10.5 1.5-1.122 2.706-3.01 2.853-6.14 1.433 1.049 3.993 5.395 1.757 9.117Z"/>
+            </svg>
+            <span class="sr-only">Fire icon</span>
+        </div>
+        <div class="ms-3 text-sm font-normal">logout success !</div>
+    </div>
 
   <div class="w-full h-100 max-w-full pt-10 bg-white dark:bg-gray-900">
     <RouterView />
