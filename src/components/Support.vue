@@ -23,10 +23,10 @@ onMounted(() => {
                 <p class="mb-10 text-xl lg:text-3xl tracking-tight font-bold text-gray-900 md:text-4xl dark:text-white">
                     你們每一分小小的金額對我都是大大的支持</p>
 
-                <div class="container flex">
+                <div class="container sm:flex">
 
                     <div id="paypal-button-container"
-                        class="m-3 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        class="w-52 mx-0 mb-2 mr-4 w-atuo h-72 rounded-lg m-3">
                     </div>
 
                     <img class="mx-0 mb-43 w-atuo h-72 rounded-lg m-3"
