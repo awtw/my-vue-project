@@ -30,7 +30,7 @@ onMounted(() => {
                     </div>
 
                     <img class="mx-0 mb-43 w-atuo h-72 rounded-lg m-3"
-                        src="https://vueproject.s3.us-west-2.amazonaws.com/S__37650520.jpg" alt="wevhat wallet">
+                        src="https://vueproject.s3.us-west-2.amazonaws.com/%E8%A1%97%E5%8F%A3.JPG" alt="wevhat wallet">
 
                 </div>
             </div>
