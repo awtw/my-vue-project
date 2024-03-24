@@ -24,14 +24,12 @@ onMounted(() => {
                     你們每一分小小的金額對我都是大大的支持</p>
 
                 <div class="container sm:flex">
+                    <img class="mx-0 mb-43 w-atuo h-72 rounded-lg m-3 mr-4"
+                        src="https://vueproject.s3.us-west-2.amazonaws.com/%E8%A1%97%E5%8F%A3.JPG" alt="wallet">
 
-                    <div id="paypal-button-container"
-                        class="w-52 mx-0 mb-2 mr-4 w-atuo h-72 rounded-lg m-3">
+                        <div id="paypal-button-container"
+                        class="w-52 mx-0 mb-2  w-atuo h-72 rounded-lg m-3">
                     </div>
-
-                    <img class="mx-0 mb-43 w-atuo h-72 rounded-lg m-3"
-                        src="https://vueproject.s3.us-west-2.amazonaws.com/%E8%A1%97%E5%8F%A3.JPG" alt="wevhat wallet">
-
                 </div>
             </div>
         </div>
