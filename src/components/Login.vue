@@ -32,7 +32,7 @@ const login = (e) => {
 </script>
 
 <template>
-    <div class="pb-96 pt-40 bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-900">
+    <div class="pb-96 pt-40 bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-900 w-full">
         <form class="max-w-sm mx-auto">
           <div class="mb-5">
             <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>

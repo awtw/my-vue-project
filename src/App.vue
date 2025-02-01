@@ -241,14 +241,14 @@ const logout = () => {
         <div class="ms-3 text-sm font-normal">logout success !</div>
     </div>
 
-  <div class="w-full h-100 max-w-full pt-10 bg-white dark:bg-gray-900">
+  <div class="w-full h-100 max-w-full pt-10 bg-white dark:bg-gray-900 flex justify-center items-center">
     <RouterView />
   </div>
 
   <div id="informational-banner" tabindex="-1" class="fixed bottom-0 start-0 z-50 flex flex-col justify-center w-full p-2 border-b border-gray-200 md:flex-row bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
     <footer class="border-gray-200 bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
       <div class="w-full mx-auto max-w-screen-xl md:flex md:items-center md:justify-between">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/"
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="https://flowbite.com/"
             class="hover:underline">August Wang</a>. All Rights Reserved.
         </span>
       </div>

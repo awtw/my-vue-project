@@ -3,7 +3,7 @@
 </script>
 
 <template>
-   <div class="pb-20 pt-20 bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-900">
+   <div class="pb-20 pt-20 bg-white border-gray-200 px-16 lg:px-16 py-2.5 dark:bg-gray-900 w-full">
       <div class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-900">
          <ol class="relative border-s border-gray-200 dark:border-gray-700">
             <li class="mb-10 ms-4">
@@ -14,7 +14,21 @@
                <img class="w-12 h-12 mb-3 me-3 sm:mb-0"
                   src="https://vueproject.s3.us-west-2.amazonaws.com/delta_electronics_logo.jpeg" alt="ctbcbank logo" />
                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">資深軟體工程師 | 台達電</h3>
-               <p class="text-base font-normal text-gray-500 dark:text-gray-400">公司內部核心系統開發</p>
+               <!-- <p class="text-base font-normal text-gray-500 dark:text-gray-400">負責公司內外部系統開發，如客服系統、夥伴系統、價格申購系統。</p> -->
+               <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+                  <li>
+                     公司內外部系統開發，如客服系統、夥伴系統、價格申購系統
+                  </li>
+                  <li>
+                     將既有 Java 專案重構為 .NET Core 8 部署至 Kubernetes
+                  </li>
+                  <li>
+                     串接 SAP 及其他模組系統，提升整合效率
+                  </li>
+                  <li>
+                     設計系統架構，導入監控機制與指標
+                  </li>
+               </ul>
             </li>
             <li class="mb-10 ms-4">
                <div
@@ -24,8 +38,14 @@
                <img class="w-12 h-12 mb-3 me-3 sm:mb-0" src="https://vueproject.s3.us-west-2.amazonaws.com/ctbcbank.png"
                   alt="ctbcbank logo" />
                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">軟體工程師 | 中國信託金融控股股份有限公司</h3>
-               <p class="text-base font-normal text-gray-500 dark:text-gray-400">於銀行個人金融部門內部系統之應用及功能開發，且協助維運處理線上異常。</p>
+               <!-- <p class="text-base font-normal text-gray-500 dark:text-gray-400">於銀行個人金融部門內部系統之應用及功能開發，且協助維運處理線上異常</p> -->
                <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+                  <li>
+                     於銀行個人金融部門內部系統之應用及功能開發
+                  </li>
+                  <li>
+                     協助維運處理線上異常
+                  </li>
                   <li>
                      主要負責保險代理人部門
                   </li>
@@ -45,9 +65,15 @@
                <img class="w-12 h-12 mb-3 me-3 sm:mb-0" src="https://vueproject.s3.us-west-2.amazonaws.com/91app.png"
                   alt="91app logo" />
                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">資深軟體工程師 | 91APP_九易宇軒股份有限公司</h3>
-               <p class="text-base font-normal text-gray-500 dark:text-gray-400">負責電商大流量的服務，隸屬於 data team 底下的 data
-                  應用，主要負責推播中心的為服務。</p>
+               <!-- <p class="text-base font-normal text-gray-500 dark:text-gray-400">負責電商大流量的服務，隸屬於 data team 底下的 data
+                  應用，主要負責推播中心的為服務。</p> -->
                <ul class="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+                  <li>
+                     隸屬於 data team 底下的 data應用
+                  </li>
+                  <li>
+                     主要負責推播中心的為服務
+                  </li>
                   <li>
                      大流量的推播架構設計
                   </li>
