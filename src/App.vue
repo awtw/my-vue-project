@@ -2,6 +2,7 @@
 import { RouterLink, RouterView, useRouter } from 'vue-router'
 import { ref, onMounted } from 'vue'
 import { initFlowbite } from 'flowbite'
+
 const router = useRouter();
 const checkLogin = ref(false);
 const checklogout = ref(false);
@@ -16,7 +17,25 @@ onMounted(() => {
     localStorage.setItem('reloaded', '1');
     location.reload();
   }
+  
   initFlowbite();
+
+  const mobileMenuButton = document.getElementById("toggleMobileMenuButton");
+  const mobileMenu = document.getElementById("toggleMobileMenu");
+
+  if (mobileMenuButton && mobileMenu) {
+    mobileMenuButton.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+
+    // 监听点击菜单内部的项，点击后自动关闭菜单
+    mobileMenu.querySelectorAll("a").forEach(item => {
+      item.addEventListener("click", () => {
+        mobileMenu.classList.add("hidden");
+      });
+    });
+  }
+  
   checkLogin.value = false;
   checklogout.value = false;
   if(localStorage.getItem("userName") != null) {
@@ -175,7 +194,7 @@ const logout = () => {
             </div>
           </div>
         </nav>
-        <nav id="toggleMobileMenu" class="hidden bg-white lg:bg-gray-50 lg:dark:bg-gray-800 dark:bg-gray-900 lg:block">
+        <nav id="toggleMobileMenu" class=" bg-white lg:bg-gray-50 lg:dark:bg-gray-800 dark:bg-gray-900 lg:block">
           <div class="px-0 lg:py-3 lg:px-6">
             <div class="flex items-center">
               <ul class="flex flex-col mt-0 w-full text-sm font-medium lg:mr-6 lg:flex-row">
@@ -247,8 +266,8 @@ const logout = () => {
 
   <div id="informational-banner" tabindex="-1" class="fixed bottom-0 start-0 z-50 flex flex-col justify-center w-full p-2 border-b border-gray-200 md:flex-row bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
     <footer class="border-gray-200 bg-gray-50 dark:bg-gray-700 dark:border-gray-600">
-      <div class="w-full mx-auto max-w-screen-xl md:flex md:items-center md:justify-between">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="https://flowbite.com/"
+      <div class="w-full mx-auto text-center max-w-screen-xl md:flex md:items-center md:justify-between">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="https://www.augustwang.com"
             class="hover:underline">August Wang</a>. All Rights Reserved.
         </span>
       </div>
